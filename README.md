@@ -22,6 +22,7 @@ Bem-vindo ao **Clima Agora!**, um projeto que permite que você verifique as con
 ## Como Usar
 
 1. Clone o repositório ou faça o download dos arquivos.
-2. Abra o arquivo `index.html` em seu navegador.
-3. Digite o nome da cidade no campo de busca e clique no botão de pesquisa.
-4. As informações climáticas serão exibidas logo abaixo.
+2. Inclua a chave da API gerada pelo Openweater no arquivo sripts.js
+3. Abra o arquivo `index.html` em seu navegador.
+4. Digite o nome da cidade no campo de busca e clique no botão de pesquisa.
+5. As informações climáticas serão exibidas logo abaixo.
