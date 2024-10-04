@@ -17,7 +17,7 @@ Bem-vindo ao **Clima Agora!**, um projeto que permite que você verifique as con
 - HTML
 - CSS
 - JavaScript
-- API de clima (especificar qual API se utilizado)
+- API de clima (Openweather - https://openweathermap.org/)
 
 ## Como Usar
 
