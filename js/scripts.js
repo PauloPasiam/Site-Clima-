@@ -1,5 +1,3 @@
-//8661fbec4a5d5e899009684ac092a1d9
-
 document.querySelector(`#search`).addEventListener(`submit`, async (event) => {
   event.preventDefault();
 
@@ -9,12 +7,12 @@ document.querySelector(`#search`).addEventListener(`submit`, async (event) => {
     showAlert("Você precisa digitar uma cidade...");
     return;
   }
-  const apiKey = `8661fbec4a5d5e899009684ac092a1d9`;
+  const apiKey = ``;// inserir a chave de API aqui 
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURI(cityName)}&appid=${apiKey}&units=metric&lang=pt_br`;
 
   const results = await fetch(apiUrl);
   const json = await results.json();
-  //console.log(json);
+
 
   if (json.cod === 200) {
     showInfo({
